@@ -15,7 +15,10 @@ p {
 	display: block;
 }
 a,a:visited{text-decoration: none;}
-
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
 .container {
 	max-width: 1256px;
 	margin: 0 auto ;
@@ -107,6 +110,7 @@ height: 707px;
 padding-top: 182px;
 position: relative;
 margin-top: 83px;
+
 }
 
 .hero-overlay {
@@ -807,6 +811,84 @@ color: #E3B873;
 	align-items: center;
 	font-size: 11px;
 	line-height: 136%;
-	
-
 }
+ @media (max-width:768px){
+	 .header-menu{
+		 display: none;
+	 }
+	 .menu__button{
+		 display: none;
+	 }
+	 .tel{
+		 color: white;
+	 }
+	 .hero{
+		 margin: 0px auto;
+		 height: 580px;
+
+		 
+	 }
+	 .hero-title{
+		 font-size: 23px;
+		 line-height: 30px;
+		 text-align: center;
+		
+	 }
+	 .hero-container{
+		 margin: 0px auto;
+	 }
+	 .hero-subtitle{
+		 font-size: 14px;
+		 line-height: 19px;
+		 text-align: center;
+	 }
+	 .hero__button1{
+		 display: block;
+		 margin: 0px auto;
+	 }
+	 .hero__button2{
+		 display: block;
+		 margin: 0px auto;
+		 margin-top: 26px;
+	 }
+	 .title-examples{
+		 text-align: center;
+		font-size: 22px;
+		line-height: 30px;
+		
+	 }
+	 .subtitle-examples{
+		text-align: center; 
+	 }
+	
+	 .examples{
+		 padding-top: 36px;
+	 }
+	 .examples-navigation{
+		 display: none;
+	 }
+	 .examples-content{
+		 display: block;
+		 
+	 }
+	 
+	 .grid-content{
+	display: flexbox;
+	flex-direction: column;
+	width: 50%;
+	 }
+	 .image-content{
+		 display: none;
+	 }
+	 .title-control{
+		 margin-top: 200px;
+	 }
+	 .control{
+		 background:#131313;
+	 }
+	 
+
+
+	 }
+
+ 
